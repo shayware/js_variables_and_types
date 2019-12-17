@@ -16,7 +16,6 @@ var bank_balance = 303.91;
 ```
  ⛑ Answer of the above will `$334.76`.
 
-
 const SPENDING_THRESHOLD = 200;
 const TAX_RATE = 0.08;
 const PHONE_PRICE = 99.99;
@@ -34,14 +33,15 @@ function formatAmount(){
     do {
   oldAmount = oldAmount+PHONE_PRICE+ACCESSORY_PRICE;
  }  
- while (amount<SPENDING_THRESHOLD);
+ while (oldAmount<SPENDING_THRESHOLD);
  amount = oldAmount;
-
-if(amount<bank_balance){
+ 
+ if(amount<bank_balance){
     amount = amount+PHONE_PRICE;
-    }
     return amount;
 }
+}
+
 calculateTax(formatAmount());
 
 2. 🎖 Write a for loop that will iterate from 0 to 20. For each iteration, it will check if the current number is even or odd, and report that to the screen using `alert` (e.g. "2 is even").
