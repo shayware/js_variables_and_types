@@ -13,7 +13,7 @@ false && false;                   // false
 "bar" && "foo";                   // "foo"
 "foo" && "";                      // ""
 ""    && "foo";                   // ""
-" "   && "John" && "" && false    // " "           ask
+" "   && "John" && "" && false    // " "           
 false && "Hey" && undefined       // false
 "undefined" && false && 42        // false
 ```
@@ -53,8 +53,11 @@ var menu = ((isGuestOneVeg==true)&&(isGuestTwoVeg==true))? alert ("Only offer up
 ```js
 let temperature = 4;
 // Your code goes here
-var temp;
-```
+
+
+let temp = (temperature32)?alert("It is freezing outside"):(temperature>110)?alert("It is hot outside"):alert("Go for it. It is pretty nice out");
+
+
 
 4. 🎖 Output of this and the reason behind the output.
 ```js

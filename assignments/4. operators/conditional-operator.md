@@ -60,21 +60,13 @@ var comperison = (num1>num2)?alert(`${num1} is greater than ${num2}`):alert(`${n
 var num1 = Number(prompt("enter number one"));
 var num2 = Number(prompt("enter number two"));
 var num3 = Number(prompt("enter number three"));
-if((num1==Math.abs(num1))&&(num2==Math.abs(num1))&&(num1==Math.abs(num1))){
-  alert("+"+num1*num2*num3);
+var product = num1*num2*num3;
+if (product>0){
+  alert("product is +ve "+product);
 }
-else if ((num1!=Math.abs(num1))&&(num2!=Math.abs(num1))&&(num1==Math.abs(num1))){
-  alert("+"+num1*num2*num3);
+else {
+  alert("product is -ve"+product);
 }
-else if ((num1==Math.abs(num1))&&(num2!=Math.abs(num1))&&(num1!=Math.abs(num1))){
-  alert("+"+num1*num2*num3);
-}
-  
-else if ((num1!=Math.abs(num1))&&(num2==Math.abs(num1))&&(num1!=Math.abs(num1))){
-  alert("+"+num1*num2*num3);
-}
-else alert(num1*num2*num3)
-
 
 
 
@@ -139,17 +131,17 @@ var marks = Number(prompt("enter your marks"));
 switch(marks) {
   case(marks>90): alert("AA");
   break;
-  case(90>=marks>80): alert("AB");
+  case((marks<=90) && (marks>80)): alert("AB");
   break;
-  case(80>=marks>70): alert("BB");
+  case((marks<=80) && (marks>70)): alert("BB");
   break;
-  case(70>=marks>60): alert("BC");
+  case((marks<=70) && (marks>60)): alert("BC");
   break;
-  case(60>=marks>50): alert("CC");
+  case((marks<=60) && (marks>50)): alert("CC");
   break;
-  case(50>=marks>40): alert("CD");
+  case((marks<=50) && (marks>40)): alert("CD");
   break;
-  case(40>=marks>30): alert("DD");
+  case((marks<=40) && (marks>30)): alert("DD");
   break;
   case(marks>30): alert("FF");
   break;
