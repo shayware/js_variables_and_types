@@ -53,6 +53,7 @@ var menu = ((isGuestOneVeg==true)&&(isGuestTwoVeg==true))? alert ("Only offer up
 ```js
 let temperature = 4;
 // Your code goes here
+var temp;
 ```
 
 4. 🎖 Output of this and the reason behind the output.
