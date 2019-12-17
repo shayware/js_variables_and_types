@@ -5,32 +5,32 @@
 * [ ] Logical AND operation
 
 ```js
-true  && true; //output
-true  && false;
-false && true;
-false && false;
-"foo" && "bar";
-"bar" && "foo";
-"foo" && "";
-""    && "foo";
-" "   && "John" && "" && false
-false && "Hey" && undefined
-"undefined" && false && 42
+true  && true;                    // true
+true  && false;                   // false
+false && true;                    // false
+false && false;                   // false
+"foo" && "bar";                   // "bar"      
+"bar" && "foo";                   // "foo"
+"foo" && "";                      // ""
+""    && "foo";                   // ""
+" "   && "John" && "" && false    // " "           ask
+false && "Hey" && undefined       // false
+"undefined" && false && 42        // false
 ```
 
 * [ ] Logical OR operation
 ```js
-true  || true;
-true  || false;
-false || true;
-false || false;
-"foo" || "bar";
-"bar" || "foo";
-"foo" || "";
-""    || "foo";
-" "   || "John" || "" || false
-false || "Hey" || undefined
-"undefined" || false || 42
+true  || true;                    // true
+true  || false;                   // true
+false || true;                    // true
+false || false;                   // false
+"foo" || "bar";                   // "foo"
+"bar" || "foo";                   // "bar"
+"foo" || "";                      // "foo"
+""    || "foo";                   // "foo"
+" "   || "John" || "" || false    // " "
+false || "Hey" || undefined       // "Hey"
+"undefined" || false || 42        // "undefined"
 ```
 
 2. 🥈You have two variables i.e `isGuestOneVeg` and  `isGuestTwoVeg` according to the value using logical && and || opeartor do the following.
@@ -43,6 +43,7 @@ let isGuestOneVeg = false;
 let isGuestTwoVeg = false;
 // Your code goes here
 ```
+var menu = ((isGuestOneVeg==true)&&(isGuestTwoVeg==true))? alert ("Only offer up vegan dishes."):(((isGuestOneVeg==false)&&(isGuestTwoVeg==true))||((isGuestOneVeg==true)&&(isGuestTwoVeg==false))) ? alert("Make sure to offer up some vegan options."):((isGuestOneVeg==false)&&(isGuestTwoVeg==false)) ? alert("Offer up anything on the menu"):alert("enter valid input");
 
 
 3. 🎖Using the variable `temperature` and logical operators do the following
