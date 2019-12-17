@@ -63,3 +63,5 @@ let temp = (temperature32)?alert("It is freezing outside"):(temperature>110)?ale
 ```js
 alert( alert(1) || 2 || alert(3) );
 ```
+1 then 2 in alert modular.
+alert(1) will display 1 then it will retuen undefined value at its place which is a falsy value but || is searching for first truthy value that is 2 so it will retuen 2 as 1st truthy value thus alert(2) will show us 2.
