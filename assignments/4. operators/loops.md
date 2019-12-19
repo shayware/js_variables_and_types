@@ -44,6 +44,8 @@ function formatAmount(){
 
 calculateTax(formatAmount());
 
+
+
 2. 🎖 Write a for loop that will iterate from 0 to 20. For each iteration, it will check if the current number is even or odd, and report that to the screen using `alert` (e.g. "2 is even").
 ```js
 // your code goes here
@@ -86,7 +88,7 @@ for(var i=1; i<11; i++){
     if(i==5){
         sameline = sameline+i+"\n";
     }else{
-        sameline = sameline+i;
+        sameline = sameline+i+",";
     }
 }
 console.log(sameline);
