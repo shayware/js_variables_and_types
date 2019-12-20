@@ -1,2 +1,2 @@
 var guestName = prompt ("Enter Your Name.");
-alert(`Good Morining ${guestName}`);
+alert(` Good Morining ${ guestName } `);

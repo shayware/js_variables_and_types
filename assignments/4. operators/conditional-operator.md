@@ -55,8 +55,6 @@ var comperison = (num1>num2)?alert(`${num1} is greater than ${num2}`):alert(`${n
 4. 🎖Write a JavaScript conditional statement to find the sign (+, -) of product of three numbers. Take those three numbers from user using `prompt`. Display an alert box with the specified sign.
 
 ```js
-// Your code goes here
-```
 var num1 = Number(prompt("enter number one"));
 var num2 = Number(prompt("enter number two"));
 var num3 = Number(prompt("enter number three"));
@@ -67,7 +65,7 @@ if (product>0){
 else {
   alert("product is -ve"+product);
 }
-
+```
 
 
 ## Switch Statement
@@ -86,8 +84,6 @@ Take a number value from user and alert the message if it matches the conditions
 * [ ] NINE, if `number` is equal to 9.
 * [ ] PLEASE TRY AGAIN, if  is none of the above.
 ```js
-// Your code goes here
-```
 var testNum = Number(prompt("enter number"));
 switch(testNum) {
   case(1): alert("ONE");
@@ -110,6 +106,7 @@ switch(testNum) {
   break;
   default: alert("PLEASE TRY AGAIN");
 }
+```
 
 
 2. 🎖Using switch statement do the following
@@ -124,26 +121,33 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
 * [ ] `DD` if `marks` is greater than 30 and less than or equal to 40
 * [ ] `FF` if `marks` is less than or equal to 30
 ```js
-// Your code goes here
-```
-
 var marks = Number(prompt("enter your marks"));          // this problem is not showing correct result.
 switch(marks) {
+  
   case(marks>90): alert("AA");
   break;
+
   case((marks<=90) && (marks>80)): alert("AB");
   break;
+
   case((marks<=80) && (marks>70)): alert("BB");
   break;
+
   case((marks<=70) && (marks>60)): alert("BC");
   break;
+
   case((marks<=60) && (marks>50)): alert("CC");
   break;
+
   case((marks<=50) && (marks>40)): alert("CD");
   break;
+
   case((marks<=40) && (marks>30)): alert("DD");
   break;
+
   case(marks>30): alert("FF");
   break;
+
   default: alert("Fail");
 }
+```

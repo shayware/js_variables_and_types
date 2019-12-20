@@ -1,7 +1,7 @@
 // Challenge 1.
 // Log message in console saying "I'm Learning Javascript"
 
-console.log("I'm Learning Javascript");
+console.log( " I'm Learning Javascript " );
 
 
 // Challenge 2.
@@ -12,7 +12,7 @@ console.log("I'm Learning Javascript");
 
 var name = "John";
 var admin = name;
-alert(admin);
+alert( admin );
 
 
 // Challenge 3.
@@ -41,4 +41,4 @@ alert(`length of enntered word is ${inputLength}`);
 var city = "Dharamshala";
 var country = "India";
 // Alert the above variable like "Dharamshala, India";
-alert(`${city},${country}`);
+alert(`${city}, ${country}`);

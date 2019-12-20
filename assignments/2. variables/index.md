@@ -8,9 +8,11 @@ var name = "Mark";
 2. Find the error if any
 ```js
   var product cost = 3.45;
-```
-  var productCost = 3.45;
 
+   var productCost = 3.45;
+
+```
+ 
 3. Write `Right or Wrong` next to the code below.
 
 ```js
@@ -45,12 +47,12 @@ Solve this using mathematical operations. (+, -, *, / , etc)
 var amount = 2080;
 // Define a new variable and store the value that is 80 less then the value of amount.
 
-var lessAmount = amount-80;
+var lessAmount = amount - 80;
 
 
 // Define a new variable and store the value that is 200 more then the value of amount.
 
-var moreAmount = amount+200;
+var moreAmount = amount + 200;
 
 
 // Define a new variable and store the value that is 4 times the value of amount.
@@ -100,5 +102,4 @@ var isEqual2 = (johnAge==markAge) ? alert("Mark and john age are equal"): (johnA
 
 
 // Calculate the average age of john and mark and assign to a new variable.
-```
-var avgAge = (johnAge+markAge)/2;
+var avgAge = (johnAge + markAge)/2;
